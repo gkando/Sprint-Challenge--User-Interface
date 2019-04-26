@@ -41,7 +41,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-    ```display: block;``` displays an element as a block, like a <p> or <header> that takes up the width of the page. No elements can be next to a block unless specified otherwise in the stylesheet.  There is a line break before and after the element.
+    ```display: block;``` displays an element as a block, like a ```<p>``` or ```<header>``` that takes up the width of the page. No elements can be next to a block unless specified otherwise in the stylesheet.  There is a line break before and after the element.
 
     ```display: inline;``` displays an element inline inside the current block on the same line.  There is no line break before or after the element.
 
