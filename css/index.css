@@ -77,6 +77,18 @@ header {
     filter: invert(100%);
 }
 
+.logo-img img { 
+    position: relative;
+    animation: mymove 5s 1;
+  }
+.logo-img img {
+    animation-timing-function: ease;
+}
+@keyframes mymove {
+    from {left: 500px;}
+    to {left: 0px;}
+    }
+
 nav.nav-menu {
     margin: 0;
     padding: 0;
