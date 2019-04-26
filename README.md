@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic html is the use of tags to give meaning to a web pages information.
+    Browsers are dumb. Imagine I had a html file with all the text and images from today's newspaper in it. A web browser lacks the intelligence to determine which text is a headline or where one article ends and another begins. All text would be displayed exactly the same in one large wall of words followed by a bunch of images.
+
+    Displaying content in an orderly, easy to understand format requires tagging each element of the news.html document. These tags give meaning to each item. Each article in its own element along with its headline and by line. But how would the browser know that the headline should be more prominent than the text of its article? These fragments would receive a tag describing what they contained. Then the browser can determine how to display them - the headline should be larger and bold compared to the body of an article - for instance. In some cases it is necessary to use more precision in tagging a fragment. Assigning meaningful class names to these elements would allow you to write a list of detailed instructions, explainig to the browser how the element should be displayed.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    ```display: block;``` displays an element as a block, like a <p> or <header> that takes up the width of the page. No elements can be next to a block unless specified otherwise in the stylesheet.  There is a line break before and after the element.
+
+    ```display: inline;``` displays an element inline inside the current block on the same line.  There is no line break before or after the element.
 
 3. What are the 4 areas of the box model?
 
+    Content, Padding, Border, and Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    Cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git allows teams of developers to collaboratively work off on the same codebase. Maintaining code integrity using version control and providing a workflow allowing developers to work on their own branch of code rather than making changes to the main codebase.  Further, the approval or pull request portion of the workflow allows project managers or other team members to compare and review any changes before shuffling it back in to the main codebase.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
